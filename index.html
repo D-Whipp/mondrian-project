@@ -23,11 +23,379 @@
     */
             /* I was given the option to choose a different Mondrian Composition
     I chose:
-    https://utopiadystopiawwi.wordpress.com/de-stijl/piet-mondrian/composition-with-grids-checkerboard-composition-with-light-colors/#jp-carousel-201 */
+
+    https://utopiadystopiawwi.wordpress.com/de-stijl/piet-mondrian/composition-with-grids-checkerboard-composition-with-light-colors/#jp-carousel-201 
+    
+    I've included the image in ./assets/images/
+    
+    Dimensions: 16 x 16
+    */
+            * {
+                box-sizing: border-box;
+                margin: 0px;
+                padding: 0px;
+            }
+
+            body {
+                background-color: black;
+                width: 1000px;
+                height: 1000px;
+                text-align: center;
+            }
+
+            .wrapper {
+                margin: 55px 150px;
+                display: grid;
+                grid-template-columns: repeat(16, 1fr);
+                grid-template-columns: 50px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+                gap: 4px;
+                grid-template-rows: repeat(16, 1fr);
+                grid-template-rows: 45px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+            }
+
+            .dark-gray {
+                background-color: #4d5158;
+            }
+
+            .medium-gray {
+                background-color: #676a6e;
+            }
+
+            .light-gray {
+                background-color: #979aa9;
+            }
+
+            .dark-red {
+                background-color: #3d0c06;
+            }
+
+            .medium-red {
+                background-color: #8e3629;
+            }
+
+            .light-red {
+                background-color: #b84e4c;
+            }
+
+            .dark-blue {
+                background-color: #3e467e;
+            }
+
+            .medium-blue {
+                background-color: #29499a;
+            }
+
+            .light-blue {
+                background-color: #6e84b4;
+            }
+
+            .orange {
+                background-color: #dcb439;
+            }
+
+            .black {
+                background-color: #2c2b27;
+            }
+
+            .white {
+                background-color: #f2efec;
+            }
+
+            .sixteen {
+                background-color: purple;
+            }
         </style>
     </head>
-
     <body>
         <!-- Write your HTML here -->
+        <div class="wrapper">
+            <!-- ***** 1st Row ***** -->
+            <div class="medium-gray"></div>
+            <div class="light-gray"></div>
+            <div class="medium-red"></div>
+            <div class="medium-blue"></div>
+            <div class="medium-blue"></div>
+            <div class="light-gray"></div>
+            <div class="light-blue"></div>
+            <div class="orange"></div>
+            <div class="orange"></div>
+            <div class="medium-blue"></div>
+            <div class="medium-gray"></div>
+            <div class="orange"></div>
+            <div class="medium-red"></div>
+            <div class="light-gray"></div>
+            <div class="light-red"></div>
+            <div class="medium-gray"></div>
+
+            <!-- ***** 2nd Row ***** -->
+            <div class="dark-gray"></div>
+            <div class="white"></div>
+            <div class="medium-blue"></div>
+            <div class="dark-gray"></div>
+            <div class="medium-red"></div>
+            <div class="light-red"></div>
+            <div class="white"></div>
+            <div class="light-red"></div>
+            <div class="light-red"></div>
+            <div class="white"></div>
+            <div class="white"></div>
+            <div class="light-gray"></div>
+            <div class="dark-gray"></div>
+            <div class="dark-red"></div>
+            <div class="medium-blue"></div>
+            <div class="light-gray"></div>
+
+            <!-- ***** 3rd Row ***** -->
+            <div class="medium-red"></div>
+            <div class="dark-gray"></div>
+            <div class="light-gray"></div>
+            <div class="white"></div>
+            <div class="medium-blue"></div>
+            <div class="medium-blue"></div>
+            <div class="white"></div>
+            <div class="medium-red"></div>
+            <div class="medium-red"></div>
+            <div class="dark-gray"></div>
+            <div class="white"></div>
+            <div class="medium-blue"></div>
+            <div class="dark-gray"></div>
+            <div class="dark-gray"></div>
+            <div class="white"></div>
+            <div class="light-gray"></div>
+
+            <!-- ***** 4th Row ***** -->
+            <div class="medium-red"></div>
+            <div class="white"></div>
+            <div class="orange"></div>
+            <div class="white"></div>
+            <div class="medium-blue"></div>
+            <div class="medium-blue"></div>
+            <div class="medium-gray"></div>
+            <div class="orange"></div>
+            <div class="orange"></div>
+            <div class="medium-blue"></div>
+            <div class="light-gray"></div>
+            <div class="medium-blue"></div>
+            <div class="orange"></div>
+            <div class="light-gray"></div>
+            <div class="dark-gray"></div>
+            <div class="orange"></div>
+
+            <!-- ***** 5th Row ***** -->
+            <div class="dark-gray"></div>
+            <div class="medium-blue"></div>
+            <div class="orange"></div>
+            <div class="medium-gray"></div>
+            <div class="dark-red"></div>
+            <div class="dark-red"></div>
+            <div class="light-red"></div>
+            <div class="white"></div>
+            <div class="white"></div>
+            <div class="orange"></div>
+            <div class="orange"></div>
+            <div class="white"></div>
+            <div class="light-gray"></div>
+            <div class="light-gray"></div>
+            <div class="medium-blue"></div>
+            <div class="dark-blue"></div>
+
+            <!-- ***** 6th Row ***** -->
+            <div class="medium-blue"></div>
+            <div class="orange"></div>
+            <div class="white"></div>
+            <div class="light-gray"></div>
+            <div class="medium-red"></div>
+            <div class="medium-blue"></div>
+            <div class="medium-blue"></div>
+            <div class="white"></div>
+            <div class="white"></div>
+            <div class="orange"></div>
+            <div class="orange"></div>
+            <div class="medium-blue"></div>
+            <div class="dark-gray"></div>
+            <div class="medium-red"></div>
+            <div class="medium-red"></div>
+            <div class="medium-blue"></div>
+
+            <!-- ***** 7th Row ***** -->
+            <div class="dark-blue"></div>
+            <div class="orange"></div>
+            <div class="medium-blue"></div>
+            <div class="dark-gray"></div>
+            <div class="white"></div>
+            <div class="medium-red"></div>
+            <div class="light-red"></div>
+            <div class="light-gray"></div>
+            <div class="white"></div>
+            <div class="white"></div>
+            <div class="light-gray"></div>
+            <div class="white"></div>
+            <div class="white"></div>
+            <div class="medium-red"></div>
+            <div class="medium-red"></div>
+            <div class="white"></div>
+
+            <!-- ***** 8th Row ***** -->
+            <div class="dark-gray"></div>
+            <div class="medium-blue"></div>
+            <div class="medium-red"></div>
+            <div class="medium-red"></div>
+            <div class="dark-gray"></div>
+            <div class="medium-gray"></div>
+            <div class="white"></div>
+            <div class="light-gray"></div>
+            <div class="white"></div>
+            <div class="medium-gray"></div>
+            <div class="light-gray"></div>
+            <div class="medium-gray"></div>
+            <div class="white"></div>
+            <div class="light-gray"></div>
+            <div class="white"></div>
+            <div class="orange"></div>
+
+            <!-- ***** 9th Row ***** -->
+            <div class="dark-gray"></div>
+            <div class="white"></div>
+            <div class="light-gray"></div>
+            <div class="medium-red"></div>
+            <div class="white"></div>
+            <div class="light-gray"></div>
+            <div class="medium-red"></div>
+            <div class="light-gray"></div>
+            <div class="light-gray"></div>
+            <div class="medium-blue"></div>
+            <div class="medium-blue"></div>
+            <div class="light-gray"></div>
+            <div class="medium-red"></div>
+            <div class="light-red"></div>
+            <div class="light-gray"></div>
+            <div class="orange"></div>
+
+            <!-- ***** 10th Row ***** -->
+            <div class="dark-red"></div>
+            <div class="white"></div>
+            <div class="dark-blue"></div>
+            <div class="medium-blue"></div>
+            <div class="orange"></div>
+            <div class="orange"></div>
+            <div class="medium-blue"></div>
+            <div class="white"></div>
+            <div class="orange"></div>
+            <div class="medium-gray"></div>
+            <div class="white"></div>
+            <div class="light-gray"></div>
+            <div class="medium-red"></div>
+            <div class="black"></div>
+            <div class="medium-blue"></div>
+            <div class="black"></div>
+
+            <!-- ***** 11th Row ***** -->
+            <div class="dark-red"></div>
+            <div class="orange"></div>
+            <div class="orange"></div>
+            <div class="white"></div>
+            <div class="orange"></div>
+            <div class="white"></div>
+            <div class="white"></div>
+            <div class="light-gray"></div>
+            <div class="medium-red"></div>
+            <div class="light-red"></div>
+            <div class="medium-gray"></div>
+            <div class="white"></div>
+            <div class="orange"></div>
+            <div class="medium-blue"></div>
+            <div class="black"></div>
+            <div class="dark-red"></div>
+
+            <!-- ***** 12th Row ***** -->
+            <div class="dark-blue"></div>
+            <div class="light-gray"></div>
+            <div class="dark-blue"></div>
+            <div class="medium-blue"></div>
+            <div class="white"></div>
+            <div class="light-gray"></div>
+            <div class="medium-gray"></div>
+            <div class="light-gray"></div>
+            <div class="light-red"></div>
+            <div class="light-red"></div>
+            <div class="white"></div>
+            <div class="white"></div>
+            <div class="orange"></div>
+            <div class="white"></div>
+            <div class="medium-red"></div>
+            <div class="medium-gray"></div>
+
+            <!-- ***** 13th Row ***** -->
+            <div class="dark-blue"></div>
+            <div class="light-gray"></div>
+            <div class="dark-gray"></div>
+            <div class="light-gray"></div>
+            <div class="medium-red"></div>
+            <div class="medium-gray"></div>
+            <div class="medium-blue"></div>
+            <div class="medium-gray"></div>
+            <div class="white"></div>
+            <div class="medium-gray"></div>
+            <div class="medium-blue"></div>
+            <div class="orange"></div>
+            <div class="black"></div>
+            <div class="dark-gray"></div>
+            <div class="medium-red"></div>
+            <div class="light-gray"></div>
+
+            <!-- ***** 14th Row ***** -->
+            <div class="light-gray"></div>
+            <div class="dark-gray"></div>
+            <div class="medium-red"></div>
+            <div class="dark-gray"></div>
+            <div class="white"></div>
+            <div class="orange"></div>
+            <div class="white"></div>
+            <div class="orange"></div>
+            <div class="white"></div>
+            <div class="light-gray"></div>
+            <div class="medium-gray"></div>
+            <div class="black"></div>
+            <div class="orange"></div>
+            <div class="light-gray"></div>
+            <div class="orange"></div>
+            <div class="medium-blue"></div>
+
+            <!-- ***** 15th Row ***** -->
+            <div class="light-gray"></div>
+            <div class="light-gray"></div>
+            <div class="medium-blue"></div>
+            <div class="light-gray"></div>
+            <div class="light-gray"></div>
+            <div class="orange"></div>
+            <div class="orange"></div>
+            <div class="medium-red"></div>
+            <div class="medium-red"></div>
+            <div class="orange"></div>
+            <div class="medium-blue"></div>
+            <div class="medium-red"></div>
+            <div class="white"></div>
+            <div class="medium-blue"></div>
+            <div class="orange"></div>
+            <div class="black"></div>
+
+            <!-- ***** 16th Row ***** -->
+            <div class="black"></div>
+            <div class="light-gray"></div>
+            <div class="light-gray"></div>
+            <div class="orange"></div>
+            <div class="light-blue"></div>
+            <div class="light-blue"></div>
+            <div class="medium-gray"></div>
+            <div class="white"></div>
+            <div class="white"></div>
+            <div class="light-gray"></div>
+            <div class="medium-gray"></div>
+            <div class="white"></div>
+            <div class="orange"></div>
+            <div class="medium-gray"></div>
+            <div class="light-gray"></div>
+            <div class="dark-gray"></div>
+        </div>
     </body>
 </html>
