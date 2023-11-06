@@ -2,7 +2,7 @@
 
 ## Frontend Challenge
 
-![app image](./assets/images/Mondrian-Project.png)
+![app image](./assets/images/mondrian-project.png)
 
 ## Description
 
