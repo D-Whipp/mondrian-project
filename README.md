@@ -2,7 +2,7 @@
 
 ## Frontend Challenge
 
-![app image](./assets/images/mondrian-composition-with-grid-9-checkerboard-with-light-colors-1919.webp)
+![app image](./assets/images/mondrian-project.png)
 
 ## Description
 
